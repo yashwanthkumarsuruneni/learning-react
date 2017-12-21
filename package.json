@@ -4,7 +4,7 @@
   "description": "just a practice",
   "main": "index.js",
   "scripts": {
-    "start": "webpack",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -33,6 +33,7 @@
     "react-dom": "^16.0.0",
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "youtube-api-search": "0.0.5"
   }
 }
